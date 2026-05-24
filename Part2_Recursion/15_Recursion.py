@@ -1,0 +1,12 @@
+## Recursion (head and tail recursion)
+## Parametrized Recursion 
+## Functional Parameter
+
+
+def factorial(n):
+    if n==0 or n==1:
+        return 1
+    return n*factorial(n-1)
+
+n = 5
+print(factorial(n))

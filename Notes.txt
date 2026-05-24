@@ -1,0 +1,18 @@
+Question Need to Practice
+
+Part-4 36_max_subarray.py
+
+Part-7   41_set_matrix_zero.py
+Part-7   42_Matrix_spiral_order.py
+
+Part0_Pattern pyramid 8 to 11  (11 must)
+
+
+
+https://takeuforward.org/dsa/strivers-a2z-sheet-learn-dsa-a-to-z
+
+https://zerotomastery.io/cheatsheets/data-structures-and-algorithms-cheat-sheet/
+
+https://bytebytego.com/courses/system-design-interview/scale-from-zero-to-millions-of-users
+
+https://www.hellointerview.com/learn/system-design/problem-breakdowns/bitly
