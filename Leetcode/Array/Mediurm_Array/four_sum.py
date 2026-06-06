@@ -1,3 +1,5 @@
+'''3Sum'''
+
 '''
 https://leetcode.com/problems/4sum/description/
 '''
@@ -35,6 +37,5 @@ class Solution:
 
 nums = [1,0,-1,0,-2,2]
 target = 0
-
 c1 = Solution()
 print(c1.fourSum(nums, target))

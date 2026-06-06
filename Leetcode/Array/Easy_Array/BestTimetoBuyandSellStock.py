@@ -1,3 +1,4 @@
+
 '''
 https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
 '''
@@ -14,9 +15,9 @@ https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
 #         for i in range(n):
 #             temp = prices[i]
 #             for j in range(i+1,n):
-#                   #max_profit = max(max_profit,prices[j]-temp ) ## instead of following if condition use this method
-#                 # if prices[j]-temp>max_profit:
-#                 #     max_profit = prices[j]-temp
+#                 #   max_profit = max(max_profit,prices[j]-temp ) ## instead of following if condition use this method
+#                 if prices[j]-temp>max_profit:
+#                     max_profit = prices[j]-temp
 #         return max_profit
 
 
@@ -43,7 +44,7 @@ class Solution:
                 max_profit = price -min_price
         return max_profit
 
-prices =[7,6,4,3,1]
+prices =[10, 7, 5, 8, 11, 9]
 c1 = Solution()
 print(c1.maxProfit(prices))
         

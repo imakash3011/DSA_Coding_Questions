@@ -10,13 +10,13 @@ class Solution:
 
         result = [intervals[0]]
         for i in range(1, len(intervals)):
-            curr_interval = result[-1]
-            next_interval = intervals[i]
+            curr_interval = result[-1] ## Pick from result
+            next_interval = intervals[i]   ## pick from given internal list of list
 
             if curr_interval[1]>=next_interval[0]:
-                curr_interval[1] = max(curr_interval[1], next_interval[1])
+                curr_interval[1] = max(curr_interval[1], next_interval[1])     ## Updating the 1st index of list taken from result (a short of merging overlapping number)
             else:
-                result.append(next_interval)
+                result.append(next_interval)  ## Here mean we found a new interval
         return result
 
 

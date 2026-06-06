@@ -1,12 +1,12 @@
 '''
-1. The Modulo 6 ShortcutEvery single prime number in the universe greater than 3 can be written in the form 6k + 1 or 6k - 1.
+1. The Modulo 6 Shortcut Every single prime number in the universe greater than 3 can be written in the form 6k + 1 or 6k - 1.
 This means if you take any prime number and divide it by 6, the remainder will always be either 1 or 5.
 '''
 
 def prime_num(n):
     if n<=1:
         return False
-    limit_num = int(n**0.5)  ## basically square root
+    limit_num = int(n**0.5)  ## basically square root 
 
     for i in range(2, limit_num+1):
         if n%i==0:

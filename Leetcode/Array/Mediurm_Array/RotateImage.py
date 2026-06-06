@@ -32,7 +32,7 @@ class Solution:
 
         ## Reverse row (row which is required at end will come first that's why reverse is required)
         for k in range(row):
-            matrix[k].reverse()
+            matrix[k].reverse() # think matrix list of list.. here we are taking one list at a time and we reversing its number
         
         return matrix
 

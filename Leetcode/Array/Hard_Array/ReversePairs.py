@@ -85,3 +85,11 @@ class Solution:
 # nums = [2,4,3,5,1]
 # c1  = Solution()
 # print(c1.reversePairs(nums))
+
+
+
+######################## IDEA #################
+
+# [  Left Sorted Half  ]   vs   [  Right Sorted Half  ]
+#      i ->                         j ->
+#    (Checks: nums[i] > 2 * nums[j])

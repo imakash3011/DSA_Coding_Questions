@@ -15,6 +15,7 @@ class Solution:
             for j in range(i):
                 print(i, end="")
             print()
+            
 
 # c1 = Solution()
 # c1.pattern4(4)

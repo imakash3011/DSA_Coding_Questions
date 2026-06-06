@@ -9,7 +9,7 @@ class Solution:
         nums.sort()
 
         for i in range(len(nums)):
-            # if standing i and before moving i to next iteration check whether next value is same or not...becz same value will end up giving same answer
+            # if standing i and before moving i to next iteration check whether next value is same or not...becz same value will end up giving same answer [1,-2,-2]
             if i > 0 and nums[i] == nums[i-1]:
                 continue
             

@@ -4,11 +4,11 @@ def insertion_sort(nums):
     for i in range(n):
         key_ele = nums[i]
         j = i-1
-        print(j)
+        # print(j)
         # Move elements of arr[0..i-1] that are greater than key
         # to one position ahead of their current position
         while j>=0 and key_ele<nums[j]:
-            nums[j+1] = nums[j]
+            nums[j+1] = nums[j]  ## put it one forward position
             j -=1
         # Place the key in its correct position
         nums[j+1] = key_ele

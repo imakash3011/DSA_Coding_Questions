@@ -43,7 +43,7 @@ class Solution:
             
         return cnt
     
-nums = [1, -1, 0]
-k = 0
+nums = [1, 1, 1]
+k = 2
 c1 = Solution()
 print(c1.subarraySum(nums, k))  
