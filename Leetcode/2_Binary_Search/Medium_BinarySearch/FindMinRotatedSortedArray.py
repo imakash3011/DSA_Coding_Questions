@@ -19,6 +19,6 @@ class Solution:
         return min_val
 
 
-nums =[3,1,2]
+nums =[4,5,6,7,0,1,2]
 c1 = Solution()
 print(c1.findMin(nums))

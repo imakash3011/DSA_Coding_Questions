@@ -1,19 +1,39 @@
+# class Solution:
+#     def findPeakElement(self, nums: List[int]) -> int:
+#         n = len(nums)
+#         low,high = 0, n-1
+#         # peak_element = float('-inf')
+#         while low<high:  # We loop until low and high converge to a single element
+#             mid = (low+high)//2
+#             if nums[mid]<nums[mid+1]:
+#                 low = mid+1
+#             else:
+#                 high = mid  ## High will come to mid position that
+#         return low
+    
+# nums = [1,2,3,1]
+# c1 = Solution()
+# print(c1.findPeakElement(nums))
+
+
+
 class Solution:
     def findPeakElement(self, nums: List[int]) -> int:
         n = len(nums)
         low,high = 0, n-1
         # peak_element = float('-inf')
-        while low<high:  # We loop until low and high converge to a single element
+        while low<=high:  # We loop until low and high converge to a single element
             mid = (low+high)//2
             if nums[mid]<nums[mid+1]:
                 low = mid+1
             else:
-                high = mid  ## High will come to mid position that
+                high = mid-1 ## High will come to mid position that
         return low
     
 nums = [1,2,3,1]
 c1 = Solution()
 print(c1.findPeakElement(nums))
+
 
 
 

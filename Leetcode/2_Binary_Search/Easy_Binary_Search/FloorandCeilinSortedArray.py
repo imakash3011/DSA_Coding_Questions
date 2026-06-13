@@ -9,7 +9,7 @@ class Solution:
     def Floor_Ceil(self, nums, x):
         n = len(nums)
         left = 0
-        right = n-1
+        right = n-1 
         floor, ceil = -1, -1
         while left <= right:
             mid = (left+right)//2
@@ -20,10 +20,10 @@ class Solution:
                 right= mid-1
             else:
                 floor = nums[mid] # consider mid as floor for now and ultimately at the end it will become our answer 
-                left = mid+1
+                left = mid+1   
         return floor, ceil     
 
 c1 = Solution()
 nums =[5,7,7,8,8,10]
-x = 9
+x = 9                   
 print(c1.Floor_Ceil(nums, x))

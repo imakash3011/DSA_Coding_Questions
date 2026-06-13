@@ -28,11 +28,11 @@ class Solution:
             else:
                 left = mid + 1   # Divisor is too small, look on the right
                 
-        return ans
+        return ans  #left
 
 # Test Case
-nums = [1, 2, 5, 9] 
-threshold = 6
+nums = [44,22,33,11,1]
+threshold = 5
 c1 = Solution()
 print(c1.smallestDivisor(nums, threshold))  # Output: 5
 

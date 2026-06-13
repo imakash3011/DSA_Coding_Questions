@@ -28,6 +28,6 @@ class Solution:
                 res = i
         return res
 
-nums = [2,2,1,1,1,2,2]
+nums = [3, 3, 6, 1]
 c1 = Solution()
 print(c1.majorityElement(nums))

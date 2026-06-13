@@ -5,21 +5,21 @@ Upper Bound: if a number is strictly greater than "x"  (>x)
 '''
 
 class Solution:
-    def lowerBound(self, nums, x):
+    def UpperBound(self, nums, x):
         n = len(nums)
         left = 0
         right = n-1
         ans = n # by default we will return n is number doesn;t exist
         while left <= right:
             mid = (left+right)//2
-            if nums[mid]>=x:                                          
+            if nums[mid]>x:
                 ans = mid
                 right= mid-1
             else:
                 left = mid+1
-        return ans     
+        return ans # left 
 
 c1 = Solution()
-nums =[5,7,7,8,8,10]
+nums = [5,7,7,8,8,10]
 x = 8
-print(c1.lowerBound(nums, x))
+print(c1.UpperBound(nums, x))

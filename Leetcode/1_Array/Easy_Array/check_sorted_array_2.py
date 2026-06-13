@@ -33,7 +33,7 @@ class Solution:
         return count<=1
 
 
-nums = [1,3,4, ]
+nums = [1,3,4, 5]
 c1 = Solution()
 print(c1.check_sorted_array_2(nums))
 
