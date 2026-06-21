@@ -13,7 +13,7 @@ class Solution:
             for i in range(n):
                 if load + weights[i] > capacity:  ## is exceeding the capacity go to next day
                     day +=1
-                    load = weights[i]
+                    load = weights[i]   # When you move to the next day, the ship starts empty, and you must immediately load this current package (weights[i]) onto it.
                 else:
                     load += weights[i]
             return day

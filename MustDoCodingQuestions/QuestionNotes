@@ -1,0 +1,64 @@
+1. Sliding Window (Most Important)
+
+Use when:
+
+Array contains positive numbers
+Need longest/shortest/count subarray
+Condition depends on current window
+
+Examples:
+
+Longest subarray with sum K (positive numbers)
+Maximum sum subarray of size K
+Fruits into baskets
+Longest substring without repeating characters
+
+
+
+2. Prefix Sum
+
+Use when:
+
+Sum queries
+Sum K
+Range sum
+
+
+
+3. Prefix Sum + HashMap
+
+This is probably the most important interview pattern.
+
+Used for:
+
+Subarray sum equals K
+Longest subarray with sum K
+Count subarrays with sum K
+Binary array sum problems
+
+
+
+
+4. Kadane's Algorithm
+
+Use when:
+
+Maximum subarray sum
+
+
+
+
+5. Monotonic Stack
+
+Use when:
+
+Next greater element
+Previous smaller element
+Largest rectangle
+Sum of subarray minimums
+
+Examples:
+
+Largest Rectangle in Histogram
+Daily Temperatures
+Sum of Subarray Minimums
